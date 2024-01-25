@@ -3,7 +3,8 @@ body {
     font-family: var(--font-dm-sans);
 }
 .sidebar {
-    position:fixed;
+    display: flex;
+    flex-direction: column;
     top: 0;
     left: 0;
     bottom: 0;
